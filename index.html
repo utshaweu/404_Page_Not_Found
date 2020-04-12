@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Page Not Found</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <section>
+    <div id="container">
+      <div class="content">
+        <h2>404</h2>
+        <h4>Opps! page not found</h4>
+        <p>The page you were looking doesn't exit. You may have mistyped the address or the page may have moved.</p>
+        <a href="#">Back To Home</a>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    var container = document.getElementById('container');
+    window.onmousemove = function(e){
+      var x = - e.clientX/5,
+          y = - e.clientY/5;
+      container.style.backgroundPositionX = x + 'px';
+      container.style.backgroundPositionY = y + 'px';
+
+    }
+  </script>
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
